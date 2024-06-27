@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #444;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: orange;
+}
+
+section h3 {
+  color: orange;
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+section ol {
+  padding-left: 20px;
+}
+
+section ol li {
+  margin-bottom: 10px;
+}
+
+section ol li strong {
+  font-weight: bold;
+}
+
+section ol li p {
+  margin: 5px 0;
+}
+
+section ol li p span {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+#calculation ol li p span {
+  background-color: rgba(255, 165, 0, 0.2);
+  /* Orange highlight with slight transparency */
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+#conclusion {
+  border-top: 1px solid orange;
+  padding-top: 15px;
+}
+
+span {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: orange;
+  /* Color for the spans inside calculations */
+}

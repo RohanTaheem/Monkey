@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Infinite Monkey Theorem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>The Truth</h1>
+  </header>
+
+  <main>
+    <section id="theorem">
+      <h2>The Infinite Monkey Theorem</h2>
+      <p>The infinite monkey theorem posits that a monkey hitting keys at random on a typewriter keyboard for an
+        infinite amount of time will eventually type any given text. The theorem is often used to illustrate concepts of
+        probability and randomness, suggesting that given enough time, any outcome with a non-zero probability, however
+        unlikely, will occur.</p>
+      <p>
+        Using this theorem we will explore how long it would take Riyen to type out his mind and why Riyen has not
+        admitted that he likes Ria Jethwa.
+      </p>
+    </section>
+
+    <section id="calculation">
+      <h2>Calculation with a Full-Size QWERTY Keyboard</h2>
+      <h3>Step-by-Step Calculation</h3>
+      <ol>
+        <li>
+          <strong>Total Characters to Type:</strong>
+          <p>The phrase "I like Ria Jethwa" is 17 characters long.</p>
+        </li>
+        <li>
+          <strong>Typing Rate:</strong>
+          <p>Lets propose that the monkey (Riyen) types at a rate of 4 characters per second.</p>
+        </li>
+        <li>
+          <strong>Number of Keys:</strong>
+          <p>For a full-size QWERTY keyboard, we assume there are 94 keys (letters, digits, punctuation, and other
+            characters).</p>
+        </li>
+        <li>
+          <strong>Probability of Typing the Phrase Correctly:</strong>
+          <p>Each key press has a probability of <span>1/94</span> of being correct.</p>
+          <p>For 17 characters, the probability of typing the phrase correctly in one attempt is:</p>
+          <p>
+            <span>(1/94)^17</span>
+          </p>
+        </li>
+        <li>
+          <strong>Expected Number of Attempts:</strong>
+          <p>The expected number of attempts to type the phrase correctly is the reciprocal of the probability:</p>
+          <p>
+            <span>94^17</span>
+          </p>
+        </li>
+        <li>
+          <strong>Expected Time for One Attempt:</strong>
+          <p>Each attempt to type 17 characters at a rate of 4 characters per second takes:</p>
+          <p>
+            <span>17 characters/4 characters/second = 4.25 seconds</span>
+          </p>
+        </li>
+        <li>
+          <strong>Total Expected Time:</strong>
+          <p>The total expected time to type the phrase correctly is:</p>
+          <p>
+            <span>Expected number of attempts × Time per attempt = (94^17) × 4.25 seconds</span>
+          </p>
+        </li>
+      </ol>
+
+      <h3>Calculation</h3>
+      <ol>
+        <li>
+          <strong>Calculate (94^17):</strong>
+          <p>
+            <span>94^17 ≈ 1.5079 × 10^34</span>
+          </p>
+        </li>
+        <li>
+          <strong>Multiply by 4.25 seconds:</strong>
+          <p>
+            <span>(1.5079 × 10^34) × 4.25 ≈ 6.4035 × 10^34 seconds</span>
+          </p>
+        </li>
+      </ol>
+
+      <h3>Conversion to Years</h3>
+      <ol>
+        <li>
+          <strong>Seconds in a Year:</strong>
+          <p>
+            <span>60 × 60 × 24 × 365 ≈ 3.1536 × 10^7 seconds</span>
+          </p>
+        </li>
+        <li>
+          <strong>Convert Total Seconds to Years:</strong>
+          <p>
+            <span>6.4035 × 10^34 / 3.1536 × 10^7 ≈ 2.03 × 10^27 years</span>
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>The expected time for a monkey to type the phrase "I like Ria Jethwa" correctly at a rate of 4 characters per
+        second on a full-size QWERTY keyboard is approximately <strong>2.03 × 10^27</strong> years. This incredibly vast
+        time frame underscores the impracticality of relying on random typing to achieve specific text outcomes.</p>
+    </section>
+  </main>
+</body>
+
+</html>
